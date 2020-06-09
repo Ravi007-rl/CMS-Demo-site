@@ -1,0 +1,19 @@
+.FieldInfo{
+    color: rgb(251, 174, 44);
+    font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+    font-size: 1.2em;
+}
+.CommentBlock{
+background-color:#F6F7F9;
+}
+
+.copyright {
+    background-color: #f3f4f4;
+}
+
+.copyright {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #e7f7fa;
+    font-size: 16px;
+}

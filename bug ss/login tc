@@ -1,0 +1,170 @@
+====================Login Test case===============
+
+1) Enter valid username & invalid password
+2) Enter Invalid username & valid password
+3) Enter special charactor, number, alphabetic charactor, sytmbol in username & click login button
+4) Enter trim function in username
+5) Enter maximum charactor in username.
+6) Ener maximum charactor in password
+7) Enter valid username & valid password 
+8) Verify Login page design 
+9) Verify multiple click on login button & check design
+10) Verify cursor is blinking when username & password selected
+11) Verify validation message when user enter invalid details
+12) verify user should be block when enter invalid credentialnts 3 or more times
+13)   
+
+
+
+====================Dashboard Test case===============
+
+1) verify dashboard menu is showing current page after click on dashboard menu
+2) Verify dashboard page url is proper.
+3) Verify dashboard page design & ui
+4) verify dashboard page is scrollable.
+5) verify dashboard page showing correct data as per database like posts, categories, admins, comments etc.
+6) verify click on back button 
+7) verify click on Add new post.
+8) verify click on Add new post & check post section showing updated data.
+9) verify click on Add new category
+10) verify click on Add new category & check category section showing updated data.
+11) verify click on Add new admin
+12) verify click on Add new admin & check admins section showing updated data.
+13) verify click on Approve comments
+14) verify click on Approve comments & check comments section showing updated data
+15) verify top recent 6 post is showing properly.
+16) verify click on logout button
+17) verify try to access page by url without login or after logout.
+18) verify mouse hover is showing on button, menu, & icons.
+
+
+
+====================Post Test case===============
+
+1) verify post menu is showing current page after click on post menu
+2) verify all blog post is showing
+3) verify post no, title, category, date-time, author, banner comments, action & post preview is showing same as database
+4) verify click on edit icon & check it's redirect to edit post page
+5) verify click on delete icon & check it's redirect to delete post page
+6) verify click on live preview icon & check it's redirect to particular post page
+7) verify post banner, author, category, post date as per blog post
+8) verify click on Add new post button
+9) verify click on Add new category button
+10) verify click on Add new admin button
+11) verify click on Approve comments
+12) verify click on logout button
+13) verify mouse hover is showing on button, menu, & icons.
+14) verify try to access page by url without login or after logout.
+15) verify post page design & ui
+
+
+====================Categories Test case===============
+
+1) verify categories menu is showing current page after click on categories menu
+2) verify all existing categories is showing
+3) verify add new category then check its showing in existing categories table
+4) verify add category by enter maximum charactor
+5) verify add category by enter minimum charactor
+6) verify validation message if user enter maximum charactor
+7) verify categories table showing correct data like total category, date-time, category name, creator name etc.
+8) verify click on delete category then check its showing in existing categories table
+9) verify categories page design & ui
+10) verify after add category it must be showing in database & live blog page
+11) verify after delete category it shouldn't be showing in database & live blog page
+12) verify mouse hover is showing on button, menu, & icons.
+13) verify try to access page by url without login or after logout.
+14) verify categories page design & ui
+15) verify try to access page by url without login or after logout.
+16) verify without enter category title & click on publish button
+
+
+====================Manage Admins Test case===============
+
+1) verify manage admins menu is showing current page after click on manage admins menu
+2) verify add new admin by enter valid data like username, name, password & confirm passwtord
+3) verify add new admin by enter invalid data like username, name, password & confirm password
+4) verify without enter any data & click on publish button
+5) verify password & confirm password field must be fire validation message when both are different
+6) verify login by new added admin recently
+7) verify recently added admin showing in database & existing admin list of manage admins page
+8) verify all existing admins are showing
+9) verify all existing admins showing correct data like name, username, added by etc.
+10) verify mouse hover is showing on button, menu, & icons.
+11) verify manage admins page design & ui
+12) verify validation message & it's color.
+13) 
+
+
+
+=====================Comments Test case===============
+
+1) verify comments menu is showing current page after click on comments menu
+2) verify all Un-Approved Comments are showing properly in Un-Approved comments section
+3) verify all Approved Comments are showing properly in Approved comments section
+4) verify all charactor of comments is showing as user commented.
+5) verify Approved & Un-Approved comments section date-time, name, comments, action & details etc.
+6) verify recent comments on blog should be showing in Un-Approved comments section untill approved by admin
+7) verify click on approve icon in Un-Approved Comment section then that comment should be showing in Approved Comment section
+8) verify click on delete icon in Un-Approved Comment section then it should be delete
+9) verify click on details icon in Un-Approved Comment section then it should be redirect to particular blog
+10) verify click on revert icon in Approved Comment section then that comment should be showing in Un-Approved Comment section
+11) verify click on delete icon in Approved Comment section then it should be delete
+12) verify click on details icon in Approved Comment section then it should be redirect to particular blog
+13) verify approved by admin name must be showing in Approved Comment section
+14) verify approved comments must be visible in blog post.
+15) verify Un-Approved comments should not be visible in blog post untill approved by admin
+16) verify mouse hover is showing on button, menu, & icons
+17) verify validation message & it's color.
+
+
+=====================Blog Test case===============
+
+1) verify when click on live blog it's redirect to blog page
+2) verify recent 5 post showing on 1st blog page
+3) verify blog title, image, author name, category & date should be showing on each post
+4) verify click on read more button on each post
+5) verify each blog post comment is showing
+6) verify comment section is showing in each blog post
+7) verify search button is clickable
+8) verify search button by enter valid data
+9) verify search button by enter invalid data
+10) verify all blog post is showing as per database
+11) verify deleted blog post is not showing
+12) verify recently added blog post must be showing
+13) verify search bar, categories & recent post section must be appeaper on right side bar each post
+14) verify click on a particular category post than it should be showing that particular categories post
+15) verify blog page pagination
+16) verify blog page design & ui
+17) verify blog page is scrollable
+18) verify all category showing in alphabetic series in categories section
+19) verify click on about us menu
+20) verify click on contact us menu
+
+
+=====================User Register Test case===============
+
+1) verify enter name, email, password & confirm password.
+2) Verify tab functionality is working properly or not
+3) Verify Enter/Tab key works as a substitute for the Signup button
+4) Verify all the fields such as name, email, password & confirm password fields have a valid placeholder
+5) Verify all the required/mandatory fields are marked with * against the field
+6) Verify system generates a validation message when clicking on signup button without filling all the mandatory fields.
+7) Verify validation of email field by entering incorrect email id
+8) Verify password & confirm password is in encrypted form when entered
+9) Verify whether the password and confirm password are same or not
+10) verify click on login button
+11) verify validation message should be in red color
+12) Verify system generates a successfull message when clicking on signup button with filling all the mandatory fields.
+
+
+====================User Login Test case===============
+1) Verify user will be able to login with a valid email and valid password
+2) Verify user cannot login with a valid email and an invalid password.
+3) Verify system generates a validation message when clicking on login button without filling all the mandatory fields
+4) Verify the messages for invalid login.	
+5) Verify data in password field is either visible as asterisk
+6) Verify user is able to login with a new password only after he/she has changed the password
+7) Verify ‘Enter’ key of the keyboard is working correctly on the login page.
+8) Verify user cannot enter the characters more than the specified range in each field (email and Password)
+9) Verify user should not be allowed to log in with different credentials from the same browser at the same time
+
