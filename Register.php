@@ -22,16 +22,16 @@ if(isset($_POST["Submit"])){
 
   if(empty($Email)||empty($Password)||empty($Name)||empty($ConfirmPassword)){
     $_SESSION["ErrorMessage"]= "All fields must be filled out";
-    Redirect_to("index.php");
+    Redirect_to("Register.php");
   }elseif ($Passwordlen<8) {
     $_SESSION["ErrorMessage"]= "Password should be greater than 7 characters";
-    Redirect_to("index.php");
+    Redirect_to("Register.php");
   }elseif ($Password !== $ConfirmPassword) {
     $_SESSION["ErrorMessage"]= "Password and Confirm Password should match";
-    Redirect_to("index.php");
+    Redirect_to("Register.php");
   }elseif (count($results) > 0) {
     $_SESSION["ErrorMessage"]= "Email id already taken. Try Another One! ";
-    Redirect_to("index.php");
+    Redirect_to("Register.php");
   }else{
     // Query to insert new admin in DB When everything is fine
     

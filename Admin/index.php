@@ -21,7 +21,7 @@ if (isset($_POST["Submit"])) {
       $_SESSION["UserId"]=$Found_Account["id"];
       $_SESSION["UserName"]=$Found_Account["username"];
       $_SESSION["AdminName"]=$Found_Account["aname"];
-      $_SESSION["SuccessMessage"]= "Wellcome ".$_SESSION["AdminName"]  ."!";
+      $_SESSION["SuccessMessage"]= "Welcome ".$_SESSION["AdminName"]  ."!";
       if (isset($_SESSION["TrackingURL"])) {
         Redirect_to($_SESSION["TrackingURL"]);
       }else{
@@ -52,7 +52,6 @@ if (isset($_POST["Submit"])) {
 }
 
 .copyright {
-    padding: 30px 0;
     text-align: center;
     background-color: #e7f7fa;
     font-size: 16px;

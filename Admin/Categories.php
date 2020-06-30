@@ -17,7 +17,7 @@ if(isset($_POST["Submit"])){
   $results = $records->fetchAll();
 
   if(empty($Category)){
-    $_SESSION["ErrorMessage"]= "All fields must be filled out";
+    $_SESSION["ErrorMessage"]= "Please enter category title";
     Redirect_to("Categories.php");
   }elseif (strlen($Category)<3) {
     $_SESSION["ErrorMessage"]= "Category title should be greater than 2 characters";

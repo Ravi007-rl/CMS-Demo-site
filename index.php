@@ -37,7 +37,7 @@ if (isset($_POST["Submit"])) {
       {
 
         
-          $_SESSION["SuccessMessage"]= "Wellcome ".$_SESSION["UsernName"] . "!";
+          $_SESSION["SuccessMessage"]= "Welcome ".$_SESSION["UsernName"] . "!";
           Redirect_to("Blog.php?page=1");echo $all['id'] ;
         
       }

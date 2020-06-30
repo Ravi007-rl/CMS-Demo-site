@@ -208,7 +208,7 @@ if(isset($_POST["Submit"])){
             </div>	
         </div>	
     </div>	
-	<div style="height:10px; background:#27aae1;"></div>	
+	<div style="background:#27aae1;"></div>	
     </footer>	
         <div style="height:10px; background:#27aae1;"></div>
     <!-- FOOTER END-->
